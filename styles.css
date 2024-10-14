@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header et Navigation */
+
+
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #333;
+  padding: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+}
+
+
+
+.gallerie{ 
+  background-color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content:space-evenly;
+  max-width: 300;
+  
+  
+  
+  }
+  .map{
+    flex-direction: row;
+  }
+  
+  .strass{
+  
+    border: solid #ddd ;
+    flex-direction: row;
+ 
+    }
+    .wech{
+      border:solid #444;
+      text-align: center;
+      
+      
+      
+    }
+    tbody th, td, th{
+      border: 1px solid #ddd;
+      border: center;
+      
+    }
+
+  
+  
+  
+  
+
+
+.carte{
+  width: 200px;
+  background-color: white;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 30px;
+}
